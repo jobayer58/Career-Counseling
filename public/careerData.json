@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.postimg.cc/R0cS5hyT/career1.jpg",
+      "service_name": "Career Counseling ",
+      "category": "Online",
+      "description": "This one-on-one career counseling session is designed to help you make informed decisions about your professional journey. Our expert counselor will assess your skills, interests, and goals to suggest suitable career paths. Whether you are a student, a job seeker, or someone looking for a career change, this session will provide personalized advice, industry insights, and strategic steps to help you achieve long-term success.",
+      "pricing": "500 BDT per session",
+      "duration": "05-12-24 5-6pm",
+      "counselor": "Md. Rahim Uddin",
+      "rating": 4.8,
+      "learn_more": "https://example.com/career-counseling"
+    },
+    {
+      "id": 2,
+      "image": "https://i.postimg.cc/nrmT08CM/resume.jpg",
+      "service_name": "Resume Review ",
+      "category": "Offline",
+      "description": "A professionally structured resume can make a significant difference in securing job opportunities. Our resume review service provides detailed feedback on formatting, content organization, keyword optimization, and overall presentation. You will receive expert recommendations to enhance the impact of your CV, making it more attractive to employers and Applicant Tracking Systems (ATS).",
+      "pricing": "300 BDT per review",
+      "duration": "06-12-24 3-4pm",
+      "counselor": "Ayesha Siddiqua",
+      "rating": 4.6,
+      "learn_more": "https://example.com/resume-review"
+    },
+    {
+      "id": 3,
+      "image": "https://i.postimg.cc/C5bHbjQq/group.jpg",
+      "service_name": "Group Career Guidance",
+      "category": "Group",
+      "description": "Join our group career guidance session where individuals with similar career interests come together to discuss challenges and opportunities. Our experienced counselor will facilitate discussions on industry trends, networking strategies, job search techniques, and skills development. This interactive session is perfect for those looking to gain new perspectives and connect with like-minded professionals.",
+      "pricing": "400 BDT per participant",
+      "duration": "07-12-24 6-7pm",
+      "counselor": "Karim Hassan",
+      "rating": 4.7,
+      "learn_more": "https://example.com/group-counseling"
+    },
+    {
+      "id": 4,
+      "image": "https://i.postimg.cc/59z3cV22/interviw.jpg",
+      "service_name": "Interview Preparation",
+      "category": "Online",
+      "description": "Acing an interview requires proper preparation and confidence. In this session, you will receive personalized coaching on common interview questions, body language, effective communication, and salary negotiation tactics. Our expert counselor will conduct mock interviews to help you improve your responses, reduce anxiety, and present yourself as a strong candidate.",
+      "pricing": "600 BDT per session",
+      "duration": "08-12-24 4-5pm",
+      "counselor": "Tariq Islam",
+      "rating": 4.9,
+      "learn_more": "https://example.com/interview-prep"
+    },
+    {
+      "id": 5,
+      "image": "https://i.postimg.cc/kMWx1vTV/job-interviw.jpg",
+      "service_name": "Job Search Strategy",
+      "category": "Online",
+      "description": "Finding the right job can be overwhelming, but with the right strategy, you can increase your chances of success. This session will guide you through creating an effective job search plan, utilizing job portals, networking strategies, and tailoring applications for different industries. Get expert insights on how to stand out in a competitive job market.",
+      "pricing": "450 BDT per session",
+      "duration": "09-12-24 7-8pm",
+      "counselor": "Nasrin Akter",
+      "rating": 4.7,
+      "learn_more": "https://example.com/job-search"
+    },
+    {
+      "id": 6,
+      "image": "https://i.postimg.cc/fLnVm6n8/linkdin.jpg",
+      "service_name": "LinkedIn Profile Optimization",
+      "category": "Online",
+      "description": "Your LinkedIn profile is your online resume and a powerful tool for career growth. In this session, you will learn how to optimize your profile, craft an engaging summary, use the right keywords, and attract recruiters. Gain insights on how to network effectively and leverage LinkedIn for job opportunities and professional connections.",
+      "pricing": "350 BDT per session",
+      "duration": "11-12-24 4-5pm",
+      "counselor": "Jannatul Ferdous",
+      "rating": 4.8,
+      "learn_more": "https://example.com/linkedin-optimization"
+    }
+  ]
+  
