@@ -31,7 +31,7 @@
       "description": "Join our group career guidance session where individuals with similar career interests come together to discuss challenges and opportunities. Our experienced counselor will facilitate discussions on industry trends, networking strategies, job search techniques, and skills development. This interactive session is perfect for those looking to gain new perspectives and connect with like-minded professionals.",
       "pricing": "400 BDT per participant",
       "duration": "07-12-24 6-7pm",
-      "counselor": "Karim Hassan",
+      "counselor": "Majid Hassan Eqbal",
       "rating": 4.7,
       "learn_more": "https://example.com/group-counseling"
     },
@@ -62,12 +62,12 @@
     {
       "id": 6,
       "image": "https://i.postimg.cc/fLnVm6n8/linkdin.jpg",
-      "service_name": "LinkedIn Profile Optimization",
+      "service_name": "LinkedIn  Optimization",
       "category": "Online",
       "description": "Your LinkedIn profile is your online resume and a powerful tool for career growth. In this session, you will learn how to optimize your profile, craft an engaging summary, use the right keywords, and attract recruiters. Gain insights on how to network effectively and leverage LinkedIn for job opportunities and professional connections.",
       "pricing": "350 BDT per session",
       "duration": "11-12-24 4-5pm",
-      "counselor": "Jannatul Ferdous",
+      "counselor": "Jannatul Ara",
       "rating": 4.8,
       "learn_more": "https://example.com/linkedin-optimization"
     }
