@@ -50,52 +50,70 @@ const ServiceDetails = () => {
                 </div>
             </div>
             {/*  */}
-            <div className="flex text-center justify-center items-center py-10">
-                <h1 className="text-4xl">Please Drop Your <span className="text-[#4DC879]">FeedBack</span></h1>
+             {/* Feedback Section */}
+            <div className="flex justify-center text-center py-10 px-4">
+                <h1 className="text-3xl md:text-4xl">
+                    Please Drop Your <span className="text-[#4DC879]">Feedback</span>
+                </h1>
             </div>
-            {/*  */}
-            <div className="py-10">
+
+            {/* Feedback Form */}
+            <div className="py-10 px-4 md:px-0">
                 <form onSubmit={handleSubmitComment}>
-                    <div className="border-[#4DC879] border mx-3 rounded-2xl py-5 bg-base-100 md:w-6/12 md:mx-auto">
-                        <div className="flex md:px-8 lg:pl-20 px-4">
-                            <fieldset className="fieldset">
+                    <div className="border border-[#4DC879] rounded-2xl py-5 bg-base-100 md:w-6/12 mx-auto space-y-6">
+                        <div className="flex flex-col md:flex-row gap-4 md:gap-6 px-6">
+                            <fieldset className="flex-1">
                                 <label className="label">
-                                    <span className="label-text text-2xl">Name</span>
+                                    <span className="label-text text-xl md:text-2xl">Name</span>
                                 </label>
-                                <input type="text" value={name} onChange={(e) => setName(e.target.value)} required className="input h-14 md:w-60" placeholder="Type here Name" />
-
-                            </fieldset>
-                        </div>
-                        <div className="flex items-center px-4 md:px-0 justify-center">
-                            <fieldset className="fieldset">
-                                <label className="label">
-                                    <span className="label-text text-2xl">Drop your Feedback</span>
-                                </label>
-                                <input type="text" value={message} onChange={(e) => setMessage(e.target.value)} required rows="4" className="input text-2xl h-44 lg:w-[800px] " placeholder="Comment" />
-
+                                <input
+                                    type="text"
+                                    value={name}
+                                    onChange={(e) => setName(e.target.value)}
+                                    required
+                                    className="input h-12 md:h-14 w-full"
+                                    placeholder="Type Your Name"
+                                />
                             </fieldset>
 
+                            <fieldset className="flex-1">
+                                <label className="label">
+                                    <span className="label-text text-xl md:text-2xl">Drop Your Feedback</span>
+                                </label>
+                                <textarea
+                                    value={message}
+                                    onChange={(e) => setMessage(e.target.value)}
+                                    required
+                                    rows="4"
+                                    className="input h-40 md:h-44 w-full"
+                                    placeholder="Write your comment"
+                                />
+                            </fieldset>
                         </div>
-                        <div className="flex justify-center items-center py-2 "><button className="btn bg-[#4DC879] text-xl">Submit Your Comment</button></div>
+
+                        <div className="flex justify-center">
+                            <button className="btn bg-[#4DC879] text-xl md:text-2xl px-6">Submit Your Comment</button>
+                        </div>
                     </div>
-
                 </form>
-                {
-                    submittedData && (
-                        <h1 className="text-center py-6 text-5xl font-semibold">Our <span className="text-[#4DC879]">Feedback</span></h1>
-                    )
-                }
-                <div className="flex justify-center items-center mx-2 md:mx-0">
-                    {submittedData && (
-                        <div className="card border  border-[#4DC879] w-96">
-                            <div className="card-body items-center text-center">
-                                <h2 className="card-title">Name :{submittedData.name}</h2>
-                                <p>Comment :{submittedData.message}</p>
 
+                {/* Feedback Display */}
+                {submittedData && (
+                    <div className="mt-12 text-center">
+                        <h2 className="text-3xl md:text-5xl font-semibold mb-6">
+                            Our <span className="text-[#4DC879]">Feedback</span>
+                        </h2>
+
+                        <div className="flex justify-center">
+                            <div className="card border border-[#4DC879] w-full max-w-md">
+                                <div className="card-body items-center text-center">
+                                    <h2 className="card-title text-xl md:text-2xl">Name: {submittedData.name}</h2>
+                                    <p className="text-lg md:text-xl mt-2">Comment: {submittedData.message}</p>
+                                </div>
                             </div>
                         </div>
-                    )}
-                </div>
+                    </div>
+                )}
             </div>
             <Footer></Footer>
         </div>
